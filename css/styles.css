@@ -838,7 +838,21 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 .modal-check-icn-spn {
+  display: inline-flex;
+  /*display: inline-flex;*/
+  /*align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  fill: transparent;
+  transition-property: background-color, border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
 }
+
 .check-text {
   display: flex;
   align-items: center;
@@ -846,7 +860,7 @@ header {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  margin-bottom: 24px;
+  /*margin-bottom: 24px;*/
 }
 .check-link {
   line-height: 1.33333;
@@ -862,7 +876,7 @@ header {
   border: 1px solid rgba(46, 47, 66, 0.4);*/
 }
 .modal-check:checked + .check-text span {
-  background-color: #404bbf;
+  background-color: #3b406e;
   border: 1px solid #404bbf;
   border: none;
   fill: #f4f4fd;
