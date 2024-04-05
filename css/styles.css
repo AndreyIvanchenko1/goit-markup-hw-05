@@ -840,7 +840,7 @@ header {
 .modal-check-icn-spn {
   display: inline-flex;
   /*display: inline-flex;*/
-  /*align-items: center;
+  align-items: center;
   justify-content: center;
   width: 16px;
   height: 16px;
@@ -850,7 +850,7 @@ header {
   fill: transparent;
   transition-property: background-color, border, fill;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .check-text {
@@ -876,7 +876,8 @@ header {
   border: 1px solid rgba(46, 47, 66, 0.4);*/
 }
 .modal-check:checked + .check-text span {
-  background-color: #3b406e;
+  /*background-color: #3b406e;*/
+  background-color: #404bbf;
   border: 1px solid #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -884,7 +885,7 @@ header {
 
 .check-text span {
   /*display: flex;*/
-  display: inline-flex;
+  /*display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
@@ -895,7 +896,7 @@ header {
   fill: transparent;
   transition-property: background-color, border, fill;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 
 .modal-btn {
