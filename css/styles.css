@@ -837,9 +837,18 @@ header {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);*/
 }
+
+.check-text {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
 .modal-check-icn-spn {
   display: inline-flex;
-  /*display: inline-flex;*/
   align-items: center;
   justify-content: center;
   width: 16px;
@@ -853,15 +862,6 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.check-text {
-  display: flex;
-  align-items: center;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  /*margin-bottom: 24px;*/
-}
 .check-link {
   line-height: 1.33333;
   text-decoration: underline;
