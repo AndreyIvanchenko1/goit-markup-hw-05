@@ -775,8 +775,12 @@ header {
 }
 .modal-field {
   margin-bottom: 8px;
-  /*margin-bottom: 16px;*/
-  /*margin-bottom: 24px;*/
+}
+.modal-comment {
+  margin-bottom: 16px;
+}
+.modal-check {
+  margin-bottom: 24px;
 }
 
 .modal-input {
